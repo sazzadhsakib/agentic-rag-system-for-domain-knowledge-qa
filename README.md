@@ -2,7 +2,7 @@
 
 
 
-An intelligent, Retrieval-Augmented Generation (RAG) system built with **FastAPI**, **Azure OpenAI**, and **Qdrant**. This system goes beyond simple "chat with PDF" by implementing **Agentic Behavior**—it reflects on its own answers, rewrites queries if necessary, and understands both text and images from documents.
+An intelligent, Retrieval-Augmented Generation (RAG) system built with **FastAPI**, **Azure OpenAI**, and **Qdrant**. This system goes beyond simple "chat with PDF" by implementing **Agentic Behavior**—it reflects on its own answers, rewrites queries if necessary, and understands documents.
 
 ## 🚀 Key Features
 
