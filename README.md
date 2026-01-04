@@ -7,8 +7,6 @@ An intelligent, Retrieval-Augmented Generation (RAG) system built with **FastAPI
 ## 🚀 Key Features
 
 * **🧠 Agentic Reasoning:** Uses a "Retrieve-Reflect-Rewrite" loop. If the agent finds retrieved context insufficient, it automatically rewrites the search query to find better results.
-* **👁️ Multimodal Ingestion:** Automatically extracts and **captions images** from PDFs and DOCX files using GPT-4o-mini, making charts and diagrams searchable.
-* **🔄 Contextual Chat:** Supports conversation history, allowing users to ask follow-up questions (e.g., "Where are they located?" after asking about specific people).
 * **📂 Multi-Format Support:** Ingests both `.pdf` and `.docx` files.
 * **⚡ High Performance:** Built on FastAPI (Async) and Qdrant (Rust-based Vector DB).
 * **🐳 Dockerized:** One-command deployment.
