@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+
+pypdf
+tiktoken
+sentence-transformers
+
+qdrant-client
+openai

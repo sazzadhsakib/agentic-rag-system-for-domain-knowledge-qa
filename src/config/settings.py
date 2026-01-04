@@ -1,0 +1,19 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY")
+
+AZURE_DEPLOYMENT_CHAT = os.getenv("AZURE_DEPLOYMENT_CHAT")
+AZURE_API_VERSION_CHAT = os.getenv("AZURE_API_VERSION_CHAT")
+
+AZURE_DEPLOYMENT_EMBED = os.getenv("AZURE_DEPLOYMENT_EMBED")
+AZURE_API_VERSION_EMBED = os.getenv("AZURE_API_VERSION_EMBED")
+
+
+QDRANT_URL = os.getenv("QDRANT_URL", ":memory:")
+QDRANT_COLLECTION = os.getenv("QDRANT_COLLECTION", "rag_collection")
+
+VECTOR_DIM = 1536
